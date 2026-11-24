@@ -21,6 +21,12 @@ A desktop GUI (CustomTkinter + Matplotlib 3D) that visualizes classic CPU schedu
 
 > Note: the scheduling "logic" here re-sorts the live process snapshot on every frame according to the selected algorithm's ordering rule (e.g. by CPU%, by a randomized priority, shuffled for Round Robin) — it's a visualization/teaching aid for how each algorithm *orders* work, not a kernel-level scheduler simulation with simulated burst/wait times.
 
+## Screenshot
+
+![CPU Scheduling Visualizer](screenshots/screenshot.png)
+
+*Live 3D view of real running processes on the host machine, ordered by the Priority (Preemptive) algorithm.*
+
 ## Requirements
 
 - Python 3.9+
